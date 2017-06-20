@@ -13,10 +13,12 @@ Step 4: git status
 
 Step 5: git add
         Description: File add to Repository
+	             Add to stage and all file will be commit one time after add
 
 Step 6: git commit -m "Decription about commit"
         /git commit --amend
 	Decription: Need to modify file after commit and next commit can add "--amend" as once commit,prvenent one file commit many times
+	             Commit all channges to current branch
 
 Step 7: git diff file
         Description: check different between local and repostory
