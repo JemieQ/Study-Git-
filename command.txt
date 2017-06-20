@@ -1,0 +1,8 @@
+Git Study Command:
+
+Step 1: mkdir Directory
+Step 2: cd Directory
+Step 3: git init
+        Decription: Initialized empty Git reposritory in Directory;
+                    And then generate a ".git", if ncommand "ls" is not show, uese "ls -a" command to search;
+
