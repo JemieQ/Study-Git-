@@ -1,8 +1,26 @@
 Git Study Command:
 
 Step 1: mkdir Directory
+
 Step 2: cd Directory
+
 Step 3: git init
         Decription: Initialized empty Git reposritory in Directory;
                     And then generate a ".git", if ncommand "ls" is not show, uese "ls -a" command to search;
+
+Step 4: git status
+        Description: Look over the Directory state, such as add ,modify,delete
+
+Step 5: git add
+        Description: File add to Repository
+
+Step 6: git commit -m "Decription about commit"
+        /git commit --amend
+	Decription: Need to modify file after commit and next commit can add "--amend" as once commit,prvenent one file commit many times
+
+Step 7: git diff file
+        Decription: check different between local and repostory
+
+
+
 
