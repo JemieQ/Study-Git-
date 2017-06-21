@@ -20,18 +20,36 @@ Step 6: git commit -m "Decription about commit"
 	Decription: Need to modify file after commit and next commit can add "--amend" as once commit,prvenent one file commit many times
 	             Commit all channges to current branch
 
-Step 7: git diff file
+Command 7: git diff file
         Description: check different between local and repostory
 
-Step 8: git log
+Command 8: git log
         Description: Look over commit history, it provides back to which versions
 
-Step 9: git reflog
+Command 9: git reflog
         Description: Look over command commit history, it provides go to future versions
 
-Step 10: git reset --hard commit_id
+Command 10: git reset --hard commit_id
          Description: Back/Go to commit_id version
 
 
 
+Add Remote Repository
 
+Step 1: Creat a SSH Key
+        Command: ssh-keygen -t rsa -C "yourmail@examep:ple.com"
+	Description: all Enter for default
+
+Step 2: Sign in GItHub and Add SSH Key
+        Description: open "Account settings" in page of GitHub, Type the title and key with the file id_rsa.pub(generate by Step 1 command)
+
+Step 3: Creat a Repository in remote
+        Decription: sign in GitHub, and creat a new repository, type the repository name
+
+Step 4: Connect the Local Repo and remote Repo
+        Command: git remote add origin <GitHub Path>
+	Remind: if the fatal arise with "remote origin already exists", you can execute command "git remote rm origin" to solve this problem.
+
+Step 5: Push contents to remote Repo(local file could be find in remote Repo)
+        Command: git push -u origin master(master is branch)
+	 
